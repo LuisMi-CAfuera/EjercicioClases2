@@ -67,7 +67,7 @@ fun Batalla(Jugador : List<Jugador>){
         resp = readln()
 
         if(resp != "Si" || resp != "si" ){
-            println("Temino el programa")
+            println("Termino el programa")
         }else {
             println("Dime dos jugadores que quieres que pelen")
 

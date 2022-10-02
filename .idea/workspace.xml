@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b71e50e-baeb-46c0-83b4-6aaf68c88758" name="Changes" comment="Segundo Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CreacionJugadores.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreacionJugadores.kt" afterDir="false" />
-    </list>
+    <list default="true" id="7b71e50e-baeb-46c0-83b4-6aaf68c88758" name="Changes" comment=" Tercer Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664729663036</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=" Tercer Commit">
+      <created>1664730479702</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664730479702</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PrimeCommit" />
     <MESSAGE value="Segundo Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Segundo Commit" />
+    <MESSAGE value=" Tercer Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value=" Tercer Commit" />
   </component>
 </project>
