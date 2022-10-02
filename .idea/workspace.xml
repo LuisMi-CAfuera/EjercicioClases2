@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b71e50e-baeb-46c0-83b4-6aaf68c88758" name="Changes" comment="PrimeCommit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CreacionJugadores.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreacionJugadores.kt" afterDir="false" />
     </list>
@@ -60,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664724525870</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PrimeCommit">
+      <created>1664729006926</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664729006926</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

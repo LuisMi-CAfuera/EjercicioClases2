@@ -25,22 +25,47 @@ fun Batalla(Jugador : List<Jugador>){
 
     val dado1 = Dado()
     val killMax : Int = 10
+    var j1 : Int = 0
+    var j2 : Int = 0
 
     println("Dime dos jugadores que quieres que pelen")
 
-    var j1 : Int = readln().toInt()
-    var j2 : Int = readln().toInt()
+     j1 = readln().toInt()
+     j2= readln().toInt()
     var resp : String = ""
 
-    while(resp == "si" || resp == "SI"){
-        println("Comienza")
-        for(kill in 1..killMax) {
-            println("Jugador ${Jugador[j1].id}")
-            Jugador[j1].puntos=dado1.tiradaDoble()
-            println("Jugador ${Jugador[j2].id}")
-            Jugador[j2].puntos=dado1.tiradaDoble()
+    while(resp == "Si" || resp == "si"){
+        println("Dime dos jugadores que quieres que pelen")
 
+        j1 = readln().toInt()
+        j2 = readln().toInt()
+
+        println("Comienza")
+
+
+        for(kill in 1..killMax) {
+            println("Jugador ${Jugador[j1-1].id}")
+            Jugador[j1-1].puntos=dado1.tiradaDoble()
+            println("------------------------")
+            println("Jugador ${Jugador[j2-1].id}")
+            Jugador[j2-1].puntos=dado1.tiradaDoble()
+            println("------------------------")
+
+            if(Jugador[j1-1].puntos < Jugador[j2-1].puntos){
+                Jugador[j2-1].kills = Jugador[j2-1].kills +1
+                Jugador[j1-1].muertes = Jugador[j1-1].muertes +1
+            }else if (Jugador[j1-1].puntos > Jugador[j2-1].puntos) {
+                Jugador[j1-1].kills = Jugador[j1-1].kills + 1
+                Jugador[j2-1].muertes = Jugador[j2-1].muertes + 1
+            }else{
+                println("Los Dos sacaron lo mismo no se suma a ninguno")
+            }
         }
+
+        println("¿Quieres seguir?(Si/No)")
+
+        resp = readln()
+
     }
 }
 
