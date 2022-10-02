@@ -24,7 +24,7 @@ fun main(){
 fun Batalla(Jugador : List<Jugador>){
 
     val dado1 = Dado()
-    val killMax : Int = 10
+    val Rondas : Int = 10
     var j1 : Int = 0
     var j2 : Int = 0
 
@@ -32,18 +32,14 @@ fun Batalla(Jugador : List<Jugador>){
 
      j1 = readln().toInt()
      j2= readln().toInt()
-    var resp : String = ""
+    var resp : String = "Si"
 
     while(resp == "Si" || resp == "si"){
-        println("Dime dos jugadores que quieres que pelen")
-
-        j1 = readln().toInt()
-        j2 = readln().toInt()
 
         println("Comienza")
 
 
-        for(kill in 1..killMax) {
+        for(kill in 1..10) {
             println("Jugador ${Jugador[j1-1].id}")
             Jugador[j1-1].puntos=dado1.tiradaDoble()
             println("------------------------")
@@ -62,10 +58,23 @@ fun Batalla(Jugador : List<Jugador>){
             }
         }
 
+        println("El jugador ${Jugador[j1-1].id}  tiene ${Jugador[j1-1].kills} kills y ${Jugador[j1-1].muertes}muertes")
+        println("El jugador ${Jugador[j2-1].id} tiene ${Jugador[j2-1].kills} kills y ${Jugador[j2-1].muertes} muetes")
+
+
         println("¿Quieres seguir?(Si/No)")
 
         resp = readln()
 
+        if(resp != "Si" || resp != "si" ){
+            println("Temino el programa")
+        }else {
+            println("Dime dos jugadores que quieres que pelen")
+
+
+            j1 = readln().toInt()
+            j2 = readln().toInt()
+        }
     }
 }
 
