@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b71e50e-baeb-46c0-83b4-6aaf68c88758" name="Changes" comment=" Tercer Commit" />
+    <list default="true" id="7b71e50e-baeb-46c0-83b4-6aaf68c88758" name="Changes" comment=" Tercer Commit">
+      <change beforePath="$PROJECT_DIR$/src/CreacionJugadores.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/LuisMi/Documents/Clases/AplicacionesMoviles/EjercicioClases/src/Dados.kt"
+    "last_opened_file_path": "C:/Users/AlumnoM/Documents/DAM2-PMDM/EjercicioClases2"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
